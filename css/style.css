@@ -457,23 +457,23 @@ section {
     bottom: 0px;
   }
   20% {
-    left: 400px;
+    left: 280px;
     bottom: 50px;
   }
   40% {
-    left: 800px;
+    left: 560px;
     bottom: 150px;
   }
   60% {
-    left: 1200px;
+    left: 840px;
     bottom: 250px;
   }
   80% {
-    left: 1600px;
+    left: 1120px;
     bottom: 350px;
   }
   100% {
-    left: 2000px;
+    left: 1400px;
     bottom: 450px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -392,7 +392,7 @@ header {
 }
 
 body {
-  background-image: url(../images/original.avif);
+  background-image: url(../images/sky.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -434,7 +434,7 @@ div {
     top: 0px;
   }
   100% {
-    left: 1250px;
+    left: 100%;
     top: 0px;
   }
 }

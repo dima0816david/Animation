@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import "./normalize";
+@import "./fonts";
+@import "./variables";
+@import "./media-queries";
+@import "./general";
+@import "./mixines";
+@import "./extends";
+@import "./layout/all-layouts";
+
+body {
+    background-image: url(../images/original.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    width: 220px;
+    height: 100px;
+    padding: 20px;
+    position: relative;
+    animation-name: anime;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+
+.div-1 {animation-timing-function: linear;}
+.div-2 {animation-timing-function: ease;}
+.div-3 {animation-timing-function: ease-in;}
+.div-4 {animation-timing-function: ease-out;}
+.div-5 {animation-timing-function: ease-in-out;}
+
+@keyframes anime {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    
+    100% {
+        left: 1250px;
+        top: 0px;
+    }
+}
+
+section {
+    width: 180px;
+    height: 80px;
+    position: relative;
+    animation-name: airplane;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+.airplane {animation-timing-function: linear;}
+
+@keyframes airplane {
+    0% {
+        left: 0px;
+        bottom: 0px;
+    }
+
+    20% {
+        left: 200px;
+        bottom: 50px;
+    }
+
+    40% {
+        left: 400px;
+        bottom: 150px;
+    }
+
+    60% {
+        left: 600px;
+        bottom: 250px;
+    }
+
+    80% {
+        left: 800px;
+        bottom: 350px;
+    }
+
+    100% {
+        left: 1000px;
+        bottom: 400px;
+    }
+
+}

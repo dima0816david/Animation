@@ -469,11 +469,11 @@ section {
     bottom: 250px;
   }
   80% {
-    left: 1400px;
+    left: 1600px;
     bottom: 350px;
   }
   100% {
-    left: 1600px;
-    bottom: 400px;
+    left: 2000px;
+    bottom: 350px;
   }
 }/*# sourceMappingURL=style.css.map */
